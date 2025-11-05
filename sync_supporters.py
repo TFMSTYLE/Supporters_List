@@ -70,7 +70,7 @@ def update_supporters(patrons, current):
     supporters = []
     for p in patrons:
         name = p["name"]
-        icon = ICON_MAP.get(p["tier"], "BRUSH_DATA")
+        icon = ICON_MAP.get(p["tier"], "USER")
 
         url = existing_urls.get(name, "")
 
@@ -87,7 +87,6 @@ def update_supporters(patrons, current):
         "CAMERA_STEREO": 2,
         "MOD_VERTEX_WEIGHT": 3,
         "USER": 4,
-        "BRUSH_DATA": 5,
     }
     supporters.sort(key=lambda s: ICON_ORDER.get(s["icon"], 999))
     return supporters
