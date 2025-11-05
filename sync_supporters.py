@@ -16,7 +16,7 @@ ICON_MAP = {
     "Everydays Project Supporter": "USER",
     "Everydays Project Supporter Plus+": "MOD_VERTEX_WEIGHT",
     "Everydays Project Supporter Plus++": "MONKEY",
-    "Supporter": "BRUSH_DATA",
+    "Supporter": "USER",
 }
 
 def fetch_patrons():
@@ -69,7 +69,6 @@ def fetch_github_file():
 
 
 def update_supporters(patrons):
-    """Build supporters list compatible with supporters.json format"""
     supporters = []
     for p in patrons:
         icon = ICON_MAP.get(p["tier"], "BRUSH_DATA")
@@ -78,6 +77,17 @@ def update_supporters(patrons):
             "url": "",
             "icon": icon
         })
+
+    # Optional: sort by icon priority (higher tier first)
+    ICON_ORDER = {
+        "BLENDER": 0,
+        "MONKEY": 1,
+        "CAMERA_STEREO": 2,
+        "MOD_VERTEX_WEIGHT": 3,
+        "USER": 4,
+        "BRUSH_DATA": 5,
+    }
+    supporters.sort(key=lambda s: ICON_ORDER.get(s["icon"], 999))
     return supporters
 
 
