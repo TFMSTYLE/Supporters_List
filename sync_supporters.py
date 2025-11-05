@@ -14,7 +14,7 @@ FILE_PATH = "supporters.json"
 # Map Patreon tiers to icons
 ICON_MAP = {
     "Everydays Project Supporter": "USER",
-    "Everydays Project Supporter Plus+": "MOD_VERTEX_WEIGHT",
+    "Everydays Project Supporter Plus+": "WPAINT_HLT",
     "Everydays Project Supporter Plus++": "MONKEY",
     "Supporter": "USER",
 }
@@ -85,7 +85,7 @@ def update_supporters(patrons, current):
         "BLENDER": 0,
         "MONKEY": 1,
         "CAMERA_STEREO": 2,
-        "MOD_VERTEX_WEIGHT": 3,
+        "WPAINT_HLT": 3,
         "USER": 4,
     }
     supporters.sort(key=lambda s: ICON_ORDER.get(s["icon"], 999))
