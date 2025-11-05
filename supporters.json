@@ -1,13 +1,13 @@
 [
     {
-        "name": "Andy Godschalk",
+        "name": "David Lesser",
         "url": "",
-        "icon": "BRUSH_DATA"
+        "icon": "MONKEY"
     },
     {
-        "name": "Kurt ",
+        "name": "Bryce Powell",
         "url": "",
-        "icon": "BRUSH_DATA"
+        "icon": "MONKEY"
     },
     {
         "name": "Sergio Bon",
@@ -20,24 +20,9 @@
         "icon": "MOD_VERTEX_WEIGHT"
     },
     {
-        "name": "Matt Mills",
-        "url": "",
-        "icon": "USER"
-    },
-    {
-        "name": "Christian Bonilla",
-        "url": "",
-        "icon": "USER"
-    },
-    {
         "name": "Warren King",
         "url": "",
         "icon": "MOD_VERTEX_WEIGHT"
-    },
-    {
-        "name": "David Lesser",
-        "url": "",
-        "icon": "MONKEY"
     },
     {
         "name": "Xavier",
@@ -50,9 +35,34 @@
         "icon": "MOD_VERTEX_WEIGHT"
     },
     {
-        "name": "Bryce Powell",
+        "name": "Ryan Petro",
         "url": "",
-        "icon": "MONKEY"
+        "icon": "MOD_VERTEX_WEIGHT"
+    },
+    {
+        "name": "Bobbi Hansel",
+        "url": "",
+        "icon": "MOD_VERTEX_WEIGHT"
+    },
+    {
+        "name": "andre fry",
+        "url": "",
+        "icon": "MOD_VERTEX_WEIGHT"
+    },
+    {
+        "name": "Kurt ",
+        "url": "",
+        "icon": "USER"
+    },
+    {
+        "name": "Matt Mills",
+        "url": "",
+        "icon": "USER"
+    },
+    {
+        "name": "Christian Bonilla",
+        "url": "",
+        "icon": "USER"
     },
     {
         "name": "Lion Lam",
@@ -72,7 +82,7 @@
     {
         "name": "patrick trudeau",
         "url": "",
-        "icon": "BRUSH_DATA"
+        "icon": "USER"
     },
     {
         "name": "Eyal Gever",
@@ -80,24 +90,14 @@
         "icon": "USER"
     },
     {
-        "name": "Ryan Petro",
-        "url": "",
-        "icon": "MOD_VERTEX_WEIGHT"
-    },
-    {
-        "name": "Bobbi Hansel",
-        "url": "",
-        "icon": "MOD_VERTEX_WEIGHT"
-    },
-    {
         "name": "Franco Tassi",
         "url": "",
         "icon": "USER"
     },
     {
-        "name": "andre fry",
+        "name": "Andy Godschalk",
         "url": "",
-        "icon": "MOD_VERTEX_WEIGHT"
+        "icon": "BRUSH_DATA"
     },
     {
         "name": "Korhan Cigdem",
