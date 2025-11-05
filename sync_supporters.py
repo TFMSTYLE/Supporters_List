@@ -36,7 +36,6 @@ def fetch_patrons():
         r.raise_for_status()
         data = r.json()
 
-        # Build a map of tier id → tier title
         tier_titles = {}
         for item in data.get("included", []):
             if item["type"] == "tier":
@@ -58,27 +57,30 @@ def fetch_patrons():
 
     return patrons
 
-
 def fetch_github_file():
-    """Get the current supporters.json file from GitHub"""
     g = Github(GITHUB_TOKEN)
     repo = g.get_repo(REPO_NAME)
     file = repo.get_contents(FILE_PATH)
     current = json.loads(file.decoded_content.decode())
     return repo, file, current
 
+def update_supporters(patrons, current):
+    existing_urls = {s["name"]: s.get("url", "") for s in current}
 
-def update_supporters(patrons):
     supporters = []
     for p in patrons:
+        name = p["name"]
         icon = ICON_MAP.get(p["tier"], "BRUSH_DATA")
+
+        url = existing_urls.get(name, "")
+
         supporters.append({
-            "name": p["name"],
-            "url": "",
+            "name": name,
+            "url": url,
             "icon": icon
         })
 
-    # Optional: sort by icon priority (higher tier first)
+    #sort by icon priority (higher tier first)
     ICON_ORDER = {
         "BLENDER": 0,
         "MONKEY": 1,
@@ -90,16 +92,13 @@ def update_supporters(patrons):
     supporters.sort(key=lambda s: ICON_ORDER.get(s["icon"], 999))
     return supporters
 
-
 def commit_to_github(repo, file, new_data):
-    """Commit updated JSON back to GitHub"""
     repo.update_file(
         file.path,
         "Auto-update supporters.json from Patreon",
         json.dumps(new_data, indent=4),
         file.sha
     )
-
 
 if __name__ == "__main__":
     print("🔄 Fetching patrons from Patreon...")
@@ -110,7 +109,7 @@ if __name__ == "__main__":
     repo, file, current = fetch_github_file()
 
     print("🧩 Updating list...")
-    updated = update_supporters(patrons)
+    updated = update_supporters(patrons, current)
 
     if updated != current:
         print("💾 Changes detected — committing update...")
