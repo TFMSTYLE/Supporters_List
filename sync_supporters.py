@@ -4,7 +4,10 @@ import os
 from github import Github
 
 # --- CONFIGURATION ---
+PATREON_TOKEN = os.getenv("PATREON_TOKEN")
+CAMPAIGN_ID = os.getenv("PATREON_CAMPAIGN_ID")
 GITHUB_TOKEN = os.getenv("GITHUB_TOKEN")
+
 REPO_NAME = "TFMSTYLE/Supporters_List"
 FILE_PATH = "supporters.json"
 
