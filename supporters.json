@@ -1,8 +1,107 @@
 [
-    {"name": "Jane Doe", "url": "https://instagram.com/janedoe", "icon": "OUTLINER_OB_CAMERA"},
-    {"name": "John Smith", "url": "https://johnsmith.artstation.com", "icon": "BRUSH_DATA"},
-    {"name": "John Smith", "url": "https://johnsmith.artstation.com", "icon": "BRUSH_DATA"},
-    {"name": "John Smith", "url": "https://johnsmith.artstation.com", "icon": "BRUSH_DATA"},
-    {"name": "PixelHero", "url": "", "icon": "BRUSH_DATA"},
-    {"name": "3D_Samurai", "url": "https://3dsamurai.com", "icon": "WORLD"}
+    {
+        "name": "Andy Godschalk",
+        "url": "",
+        "icon": "BRUSH_DATA"
+    },
+    {
+        "name": "Kurt ",
+        "url": "",
+        "icon": "BRUSH_DATA"
+    },
+    {
+        "name": "Sergio Bon",
+        "url": "",
+        "icon": "BRUSH_DATA"
+    },
+    {
+        "name": "Jim Hughes",
+        "url": "",
+        "icon": "BRUSH_DATA"
+    },
+    {
+        "name": "Matt Mills",
+        "url": "",
+        "icon": "BRUSH_DATA"
+    },
+    {
+        "name": "Christian Bonilla",
+        "url": "",
+        "icon": "BRUSH_DATA"
+    },
+    {
+        "name": "Warren King",
+        "url": "",
+        "icon": "BRUSH_DATA"
+    },
+    {
+        "name": "David Lesser",
+        "url": "",
+        "icon": "BRUSH_DATA"
+    },
+    {
+        "name": "Xavier",
+        "url": "",
+        "icon": "BRUSH_DATA"
+    },
+    {
+        "name": "David Jenne",
+        "url": "",
+        "icon": "BRUSH_DATA"
+    },
+    {
+        "name": "Bryce Powell",
+        "url": "",
+        "icon": "BRUSH_DATA"
+    },
+    {
+        "name": "Lion Lam",
+        "url": "",
+        "icon": "BRUSH_DATA"
+    },
+    {
+        "name": "David K",
+        "url": "",
+        "icon": "BRUSH_DATA"
+    },
+    {
+        "name": "Shelley Green",
+        "url": "",
+        "icon": "BRUSH_DATA"
+    },
+    {
+        "name": "patrick trudeau",
+        "url": "",
+        "icon": "BRUSH_DATA"
+    },
+    {
+        "name": "Eyal Gever",
+        "url": "",
+        "icon": "BRUSH_DATA"
+    },
+    {
+        "name": "Ryan Petro",
+        "url": "",
+        "icon": "BRUSH_DATA"
+    },
+    {
+        "name": "Bobbi Hansel",
+        "url": "",
+        "icon": "BRUSH_DATA"
+    },
+    {
+        "name": "Franco Tassi",
+        "url": "",
+        "icon": "BRUSH_DATA"
+    },
+    {
+        "name": "andre fry",
+        "url": "",
+        "icon": "BRUSH_DATA"
+    },
+    {
+        "name": "Korhan Cigdem",
+        "url": "",
+        "icon": "BRUSH_DATA"
+    }
 ]
