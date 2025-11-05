@@ -1,0 +1,34 @@
+name: Sync Patreon Supporters
+
+on:
+  schedule:
+    - cron: '0 0 * * *'  # runs daily at midnight UTC
+  workflow_dispatch:       # lets you trigger it manually
+
+permissions:
+  contents: write          # allow commits
+  actions: read
+  checks: read
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install requests PyGithub
+
+      - name: Run Patreon → GitHub sync
+        run: python sync_supporters.py
+        env:
+          PATREON_TOKEN: ${{ secrets.PATREON_TOKEN }}
+          PATREON_CAMPAIGN_ID: ${{ secrets.PATREON_CAMPAIGN_ID }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
