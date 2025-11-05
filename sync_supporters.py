@@ -13,9 +13,9 @@ FILE_PATH = "supporters.json"
 
 # Map Patreon tiers to icons
 ICON_MAP = {
-    "3D Artist": "BRUSH_DATA",
-    "Photographer": "OUTLINER_OB_CAMERA",
-    "Worldbuilder": "WORLD",
+    "Everydays Project Supporter": "USER",
+    "Everydays Project Supporter Plus+": "MOD_VERTEX_WEIGHT",
+    "Everydays Project Supporter Plus++": "MONKEY",
     "Supporter": "BRUSH_DATA",
 }
 
