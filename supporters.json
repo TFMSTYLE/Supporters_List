@@ -12,42 +12,47 @@
     {
         "name": "Sergio Bon",
         "url": "",
-        "icon": "MOD_VERTEX_WEIGHT"
+        "icon": "WPAINT_HLT"
     },
     {
         "name": "Jim Hughes",
         "url": "",
-        "icon": "MOD_VERTEX_WEIGHT"
+        "icon": "WPAINT_HLT"
     },
     {
         "name": "Warren King",
         "url": "",
-        "icon": "MOD_VERTEX_WEIGHT"
+        "icon": "WPAINT_HLT"
     },
     {
         "name": "Xavier",
         "url": "",
-        "icon": "MOD_VERTEX_WEIGHT"
+        "icon": "WPAINT_HLT"
     },
     {
         "name": "David Jenne",
         "url": "",
-        "icon": "MOD_VERTEX_WEIGHT"
+        "icon": "WPAINT_HLT"
     },
     {
         "name": "Ryan Petro",
         "url": "",
-        "icon": "MOD_VERTEX_WEIGHT"
+        "icon": "WPAINT_HLT"
     },
     {
         "name": "Bobbi Hansel",
         "url": "",
-        "icon": "MOD_VERTEX_WEIGHT"
+        "icon": "WPAINT_HLT"
     },
     {
         "name": "andre fry",
         "url": "",
-        "icon": "MOD_VERTEX_WEIGHT"
+        "icon": "WPAINT_HLT"
+    },
+    {
+        "name": "Andy Godschalk",
+        "url": "",
+        "icon": "USER"
     },
     {
         "name": "Kurt ",
@@ -95,13 +100,8 @@
         "icon": "USER"
     },
     {
-        "name": "Andy Godschalk",
-        "url": "",
-        "icon": "BRUSH_DATA"
-    },
-    {
         "name": "Korhan Cigdem",
         "url": "",
-        "icon": "BRUSH_DATA"
+        "icon": "USER"
     }
 ]
