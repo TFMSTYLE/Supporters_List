@@ -10,11 +10,6 @@
         "icon": "MONKEY"
     },
     {
-        "name": "Sergio Bon",
-        "url": "",
-        "icon": "WPAINT_HLT"
-    },
-    {
         "name": "Jim Hughes",
         "url": "",
         "icon": "WPAINT_HLT"
@@ -56,6 +51,11 @@
     },
     {
         "name": "Kurt ",
+        "url": "",
+        "icon": "USER"
+    },
+    {
+        "name": "Sergio Bon",
         "url": "",
         "icon": "USER"
     },
