@@ -16,6 +16,11 @@ ICON_MAP = {
     "Everydays Project Supporter": "USER",
     "Everydays Project Supporter Plus+": "WPAINT_HLT",
     "Everydays Project Supporter Plus++": "MONKEY",
+    "Tier 1 - User Icon": "USER",
+    "Tier 2 - Weight Paint Icon", "WPAINT_HLT",
+    "Tier 3 - 3D Glasses Icon", "CAMERA_STEREO",
+    "Tier 4 - Monkey Icon": "MONKEY",
+    "Tier 5 - Blender Icon": "BLENDER",
     "Supporter": "USER",
 }
 
